@@ -1,0 +1,212 @@
+*{box-sizing:border-box;
+}
+
+body{
+  background-color: #e6dede;
+  margin: 0;
+  padding: 0;
+    
+}
+.encompass{
+  position: fixed;
+  text-decoration: none;
+  
+}
+
+
+header{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  margin-bottom: 100;
+  top: 0;
+  border-bottom: 2px solid gray;
+  
+}
+
+.links{
+  display: inline;
+  color: gray;
+  right: 15%;
+  text-decoration: none;
+  position: fixed;
+  top: 30px;
+  word-spacing: 30px;
+  
+ 
+
+}
+a:link{
+  color: gray;
+  position: relative;
+  top: 3%;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  word-spacing: 20px;
+}
+h1{
+  clear: both;
+    color: white;
+    width: 200px;
+    background-color: #4aaaa5;
+    height: 74px;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    margin-left: 10%;
+    overflow: auto;
+    margin-top: 0;
+    font-size: 12;
+}
+
+h2 {
+    color: #4aaaa5; 
+    padding: 20px;
+    font-size: 30px;
+    font: bold;
+}
+
+img{
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+  
+}
+.firstp{
+  text-indent: 50px;
+  width: 60%;
+  float: left;
+  margin-top: 0;
+  margin-right: 5%;
+  line-height: 2;
+  text-align: left;
+  
+}
+.secondp{
+  float: left;
+  line-height: 2;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.mainbio{
+  background-color: white;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-bottom: 20%;
+  position: relative;
+  clear: both;
+  height: 70%;
+  float: left; 
+}
+
+footer{
+  text-align: center;
+  color: white;
+  background-color: darkgray;
+  border-top: 4px solid #4aaaa5;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  line-height: 6; 
+}
+
+contactform{
+  background-color: white;
+  width: 780px;
+  height: 100%;
+  position: relative;
+}
+h3{ 
+  color: #4aaaa5;
+  padding: 20px;
+  font-size: 30px;
+}
+form{
+  width: 60%;
+  height: 80%;
+  margin: 140px 250px 300px 250px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-top: 50%;
+  background-color: white;
+  position: absolute;
+}
+#name{
+  width: 90%;
+}
+#email{
+  width: 90%;
+}
+#message{
+  width: 90%;
+  height: 100px;
+}
+#submit{
+  color: white;
+  background-color: #4aaaa5;
+  padding: 8px;
+  font-size: 10px;
+}
+.portfoliocontainer{
+  width: 80%;
+  margin: 10% 20% 10% 10%;
+  padding-bottom: 40%;
+  background-color: white; 
+  position: relative;
+  clear: both;
+}
+
+#portfoliotitle{
+  padding: 40px;
+}
+.photo1{
+  top: 25%;
+  left: 10%;
+  position: absolute;
+ 
+  
+}
+.photo2{
+ top: 35%;
+ left: 50%;
+  position: absolute;
+  
+}
+.photo3{
+  top: 35%;
+  left: 30%;
+  position: absolute;
+  
+  
+}
+.photo4{
+  top: 60%;
+  left: 10%;
+  position: absolute;
+  
+}
+.photo5{
+  top: 60%;
+  left: 30%;
+  position: absolute;
+  
+  
+}  
+
+.description{
+  text-align: center;
+  
+}
+img{
+  width: 200px;
+  height: 100px;
+}
+.description{
+  color: white;
+  background-color: #4aaaa5;
+  top: 5%;
+}
